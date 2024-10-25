@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    animation: sharingan infinite 3s;
+
+}
+
+@keyframes sharingan {
+    100% {
+        transform: rotate(360deg);
+    }
+}
